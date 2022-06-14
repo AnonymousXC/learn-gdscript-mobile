@@ -3,7 +3,7 @@
 [ext_resource path="res://ui/theme/fonts/OpenSans-BoldItalic.ttf" type="DynamicFontData" id=1]
 
 [resource]
-size = 20
+size = 70
 use_mipmaps = true
 use_filter = true
 font_data = ExtResource( 1 )

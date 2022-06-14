@@ -52,6 +52,7 @@ focus_neighbour_top = NodePath(".")
 focus_neighbour_bottom = NodePath(".")
 focus_mode = 1
 mouse_filter = 1
+size_flags_horizontal = 3
 size_flags_vertical = 3
 theme = SubResource( 2 )
 follow_focus = true
@@ -63,7 +64,7 @@ __meta__ = {
 
 [node name="InnerMargin" type="MarginContainer" parent="OuterMargin/ScrollContainer"]
 margin_right = 1908.0
-margin_bottom = 282.0
+margin_bottom = 264.0
 mouse_filter = 2
 size_flags_horizontal = 3
 custom_constants/margin_top = 40
@@ -71,55 +72,55 @@ custom_constants/margin_top = 40
 [node name="Content" type="VBoxContainer" parent="OuterMargin/ScrollContainer/InnerMargin"]
 margin_left = 574.0
 margin_top = 40.0
-margin_right = 1334.0
-margin_bottom = 262.0
+margin_right = 2074.0
+margin_bottom = 244.0
 rect_min_size = Vector2( 760, 0 )
 mouse_filter = 2
 size_flags_horizontal = 4
 size_flags_vertical = 3
 theme = ExtResource( 1 )
-custom_constants/separation = 6
+custom_constants/separation = 0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Title" type="Label" parent="OuterMargin/ScrollContainer/InnerMargin/Content" groups=["navigation_text"]]
-margin_right = 760.0
+margin_right = 1500.0
 margin_bottom = 40.0
 custom_fonts/font = ExtResource( 4 )
 text = "Title"
 align = 1
 
 [node name="HSeparator" type="HSeparator" parent="OuterMargin/ScrollContainer/InnerMargin/Content"]
-margin_top = 46.0
-margin_right = 760.0
-margin_bottom = 76.0
+margin_top = 40.0
+margin_right = 1500.0
+margin_bottom = 70.0
 mouse_filter = 2
 custom_constants/separation = 30
 
 [node name="ContentBlocks" type="VBoxContainer" parent="OuterMargin/ScrollContainer/InnerMargin/Content"]
-margin_top = 82.0
-margin_right = 760.0
-margin_bottom = 82.0
+margin_top = 70.0
+margin_right = 1500.0
+margin_bottom = 70.0
 mouse_filter = 2
 custom_constants/separation = 20
 
 [node name="PracticesContainer" type="VBoxContainer" parent="OuterMargin/ScrollContainer/InnerMargin/Content"]
-margin_top = 88.0
-margin_right = 760.0
-margin_bottom = 222.0
+margin_top = 70.0
+margin_right = 1500.0
+margin_bottom = 204.0
 mouse_filter = 2
 custom_constants/separation = 32
 
 [node name="HSeparator" type="HSeparator" parent="OuterMargin/ScrollContainer/InnerMargin/Content/PracticesContainer"]
-margin_right = 760.0
+margin_right = 1500.0
 margin_bottom = 30.0
 mouse_filter = 2
 custom_constants/separation = 30
 
 [node name="PracticesTitle" type="Label" parent="OuterMargin/ScrollContainer/InnerMargin/Content/PracticesContainer" groups=["navigation_text"]]
 margin_top = 62.0
-margin_right = 760.0
+margin_right = 1500.0
 margin_bottom = 102.0
 custom_fonts/font = ExtResource( 4 )
 text = "Practices"
@@ -127,7 +128,7 @@ align = 1
 
 [node name="Practices" type="VBoxContainer" parent="OuterMargin/ScrollContainer/InnerMargin/Content/PracticesContainer"]
 margin_top = 134.0
-margin_right = 760.0
+margin_right = 1500.0
 margin_bottom = 134.0
 mouse_filter = 2
 
